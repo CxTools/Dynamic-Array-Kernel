@@ -6,9 +6,7 @@
 
 ULONG_PTR align_to_page_size( ULONG_PTR val )
 {
-	if (val % PAGE_SIZE == 0)
-		return val;
-	return (val / PAGE_SIZE + 1) * PAGE_SIZE;
+    return (val + (PAGE_SIZE - 1)) & -PAGE_SIZE;
 }
 
 
