@@ -1,6 +1,6 @@
 # Dynamic-Array-Kernel 
 
-Dynamic array for windows kernel development. I recently had to develop something similar to STL vector, but compatible in kernel mode, since I had chunks of unknown sizes coming in that I had to parse. So, I created this. I couldn't find anything like this anywhere online, except for GLib's [GArray](https://developer.gnome.org/glib/stable/glib-Arrays.html) and [this](https://www.happybearsoftware.com/implementing-a-dynamic-array) though I didn't look too hard. But it works, and it works well. 
+Dynamic array for windows kernel development. I recently had to develop something similar to STL vector, but compatible in kernel mode, since I had chunks of unknown sizes coming in that I had to parse. So, I created this. I couldn't find anything like this anywhere online, except for GLib's [GArray](https://developer.gnome.org/glib/stable/glib-Arrays.html) and [this](https://www.happybearsoftware.com/implementing-a-dynamic-array).
 
 ## Usage
 
